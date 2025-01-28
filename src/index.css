@@ -4,7 +4,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #030014;
+  --color-primary: #000000;
 
   --color-light-100: #cecefb;
   --color-light-200: #a8b5db;
@@ -55,6 +55,10 @@
 
   .wrapper {
     @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
+  }
+
+  .moviestitle{
+    @apply mt-45
   }
 
   .trending {
@@ -143,7 +147,7 @@
 }
 
 @utility text-gradient {
-  @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
+  @apply bg-linear-to-r from-[#003cff] to-[#ffc800] bg-clip-text text-transparent;
 }
 
 @utility fancy-text {
