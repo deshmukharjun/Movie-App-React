@@ -45,7 +45,7 @@ export const getTrendingMovies = async () => {
     Query.orderDesc("count")
   ])
 
-  return result.documents;
+  return result.documents;  
  } catch (error) {
   console.error(error);
  }
